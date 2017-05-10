@@ -1,0 +1,6 @@
+server-prueba:
+  rest: "http://example.com:8080"
+  soap: "http://example.com:8035"
+server-trabajo:
+  rest: "http://sample.com:8080"
+  soap: "http://sample.com:8035"
