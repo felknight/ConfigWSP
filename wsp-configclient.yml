@@ -5,11 +5,11 @@ spring:
   profiles: production
 server:
   rest: http://example.com:8080
-  sopa: http://example.com:8035
+  soap: http://example.com:8035
 ---
 spring:
   profiles: development
 server:
   rest: http://localhost:8080
-  sopa: http:localhost:8035
+  soap: http://localhost:8035
 

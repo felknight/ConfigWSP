@@ -1,0 +1,31 @@
+server:
+  port: 8053
+jmx:
+  port: 2053
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8085/eureka/
+  instance:
+    preferIpAddress: true
+
+spring:
+  datasource:
+    driver-class-name: com.ibm.db2.jcc.DB2Driver
+    url: jdbc:db2://localhost:50000/WSPComp
+    username: felipe  
+    password: alsk
+  jpa:
+    show-sql: true
+    properties:
+      hibernate.dialect: org.hibernate.dialect.DB2Dialect
+      hibernate.default_schema: NULLID
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd hh:mm:ss} %-5level [%thread] %logger : %msg%n"
+  level:
+    root: INFO
+    com.netflix.discovery: "OFF"
+    com.gnp.autos.configurador: INFO
