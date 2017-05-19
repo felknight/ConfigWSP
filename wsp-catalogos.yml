@@ -24,6 +24,10 @@ spring:
     properties:
       hibernate.dialect: org.hibernate.dialect.DB2Dialect
       hibernate.default_schema: DB2ADMIN
+      hibernate.cache.use_second_level_cache: true
+      hibernate.cache.use_query_cache: true
+      javax:
+        persistence.sharedCache.mode: ENABLE_SELECTIVE
 
 logging:
   pattern:
