@@ -39,8 +39,8 @@ logging:
     com.gnp.autos.configurador: INFO
 
 wsp:
-  high_trafic_start: "16:00:00"
-  high_trafic_stop: "02:00:00"
+  high_trafic_start: "02:00:00"
+  high_trafic_stop: "05:00:00"
 
 ---
 spring:
