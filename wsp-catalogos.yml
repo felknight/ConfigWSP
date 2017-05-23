@@ -23,7 +23,7 @@ spring:
     show-sql: true
     properties:
       hibernate.dialect: org.hibernate.dialect.DB2Dialect
-      hibernate.default_schema: DB2ADMIN
+      hibernate.default_schema: ESEONEG
       hibernate.cache.use_second_level_cache: true
       hibernate.cache.use_query_cache: true
       hibernate.cache.region.factory_class: org.hibernate.cache.ehcache.EhCacheRegionFactory
