@@ -13,9 +13,9 @@ eureka:
 spring:
   datasource:
     driver-class-name: com.ibm.db2.jcc.DB2Driver
-    url: jdbc:db2://localhost:50000/gnpcat
-    username: felipe
-    password: alsk
+    url: jdbc:db2://10.67.4.78:50538/GNPDB078
+    username: iracine
+    password: 2017Junio
     type: com.zaxxer.hikari.HikariDataSource
     hikari:
       maximum-pool-size: 3
